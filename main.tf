@@ -1,4 +1,4 @@
-resource "aws_instance" "ec2-instance1" {
+/*resource "aws_instance" "ec2-instance1" {
   ami           = "ami-0341d95f75f311023"
   instance_type = "t2.micro"
 
@@ -15,4 +15,11 @@ resource "aws_instance" "ec2-instance2" {
   tags = {
     Name = "demo-server2"
   }
+}*/
+
+resource "aws_instance" "MyInstance_test" {
+  #instance configuration
 }
+
+
+
